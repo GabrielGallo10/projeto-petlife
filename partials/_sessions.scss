@@ -1,0 +1,116 @@
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    margin-top: 50px;
+    padding: 0 80px 128px 80px;
+
+    .button {
+        background-color: #FF9A6C;
+        padding: 16px 32px;
+        margin-right: 30px;
+        border-radius: 7px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .button-hiper {
+        background-color: transparent;
+        color: #FF9A6C;
+    }
+
+    .absolute {
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+#clinica {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+
+    li {
+        margin-bottom: 16px;
+        margin-left: 32px;
+    }
+}
+
+#farmacia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 64px 80px;
+
+    img {
+        margin: 64px auto;
+    }
+
+    p {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+}
+
+#duvidas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+
+    .duvidas-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .duvida {
+        position: relative;
+
+        h3 {
+            border: 2px solid #FF9A6C;
+            border-radius: 8px;
+            padding: 24px 30px 24px 24px;
+            font-size: 15px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        img {
+            position: absolute;
+            width: auto;
+            top: 32px;
+            right: 24px;
+            cursor: pointer;
+        }
+
+        p {
+            border-right: 1px solid #FF9A6C;
+            border-bottom: 1px solid #FF9A6C;
+            border-left: 1px solid #FF9A6C;
+            border-radius: 0 0 8px 8px;
+            margin-top: -8px;
+            padding: 0 24px;
+            height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: 0.2s;
+        }
+    }
+
+    .duvida.ativa {
+        p {
+            height: fit-content;
+            padding: 24px;
+            opacity: 1;
+        }
+    }
+}

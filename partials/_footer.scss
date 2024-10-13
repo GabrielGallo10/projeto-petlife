@@ -1,0 +1,42 @@
+footer {
+    background-color: rgba(255, 152, 108, 0.25);
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px;
+
+    img {
+        width: auto;
+        margin-bottom: 24px;
+    }
+
+    strong {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+
+    nav {
+        a {
+            color: #263138;
+            display: block;
+            margin-bottom: 16px;
+            text-decoration: none;
+            max-width: 350px;
+        }
+    }
+
+    p {
+        margin-bottom: 5px;
+    }
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #263138;
+    max-width: 1440px;
+    color: #fff;
+    padding: 22px 0 0 0;
+}

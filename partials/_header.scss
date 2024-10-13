@@ -1,0 +1,21 @@
+header {
+    background-color: #FF9A6C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 80px;
+    max-width: 1440px;
+}
+
+.navigation-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+    }
+}

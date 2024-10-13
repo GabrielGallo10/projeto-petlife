@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+@import "./partials/_header.scss";
+@import "./partials/_sessions.scss";
+@import "./partials/_footer.scss";
+
+body {
+    color: #263138;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+p {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
